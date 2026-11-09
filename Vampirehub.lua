@@ -323,7 +323,6 @@ local TargetGears = {
     ["Blackhole Bomb"] = true,
     ["Bloodmoon Hammer"] = true,
     ["Bloodmoon Slap"] = true,
-    ["Candy Sentry"] = true,
     ["Candy Slap"] = true,
     ["Cupid's Wings"] = true,
     ["Cursed Slap"] = true,
@@ -342,7 +341,8 @@ local TargetGears = {
     ["Yin Yang Lamp"] = true,
     ["Yin Yang Slap"] = true,
     ["Phantom Slap"] = true,
-    ["Crystal Slap"] = true
+    ["Crystal Slap"] = true,
+    ["Candy Sentry"] = true
 }
 
 task.spawn(function()
