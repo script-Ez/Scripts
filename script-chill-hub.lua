@@ -350,7 +350,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/FREEZE_TRADE/refs/heads/main/.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZLHubOp/1OF1-/refs/heads/main/1of1chocola"))()
 
     task.wait(1)
 
