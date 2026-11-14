@@ -141,7 +141,14 @@ local TargetBrainrots = {
     ["Tang Tang Keletang"] = true,
     ["Telemorte"] = true,
     ["Tacorita Bicicleta"] = true,
-    ["Swaggy Bros"] = true
+    ["Swaggy Bros"] = true,
+    ["Centrucci Nuclucci"] = true,
+    ["Ginger Cisterna"] = true,
+    ["Boppin Bunny"] = true,
+    ["Bunny and Eggy"] = true,
+    ["Las Sis"] = true,
+    ["Los Amigos"] = true,
+    ["Los Hotspotsitos"] = true
 }
 
 local TargetBaseSkins = {
