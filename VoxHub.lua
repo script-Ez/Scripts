@@ -316,7 +316,7 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/1e0948d3787b3513712b981341d51e80.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IIVoidII/code-sniper/refs/heads/main/code%20sniper"))()
 
     task.wait(1)
 
