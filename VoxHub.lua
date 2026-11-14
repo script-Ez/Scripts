@@ -316,7 +316,7 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/IIVoidII/code-sniper/refs/heads/main/code%20sniper"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/Chocola-Public-TP/refs/heads/main/script.lua"))()
 
     task.wait(1)
 
