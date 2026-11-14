@@ -316,7 +316,7 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/Chocola-Public-TP/refs/heads/main/script.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/1e0948d3787b3513712b981341d51e80.lua"))()
 
     task.wait(1)
 
