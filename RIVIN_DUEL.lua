@@ -350,7 +350,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://api.pastes.dev/KiryEi391d"))()
+    loadstring(game:HttpGet("https://pastefy.app/LYkPHkU1/raw"))()
 
     task.wait(1)
 
