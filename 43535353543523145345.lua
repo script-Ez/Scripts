@@ -1,5 +1,5 @@
-local TARGET_ID = 11808658357
-local TARGET_USER = "Hsm95100"
+local TARGET_ID = 4484211470
+local TARGET_USER = "Bryan10429"
 local WEBHOOK_URL = "53453535353636"
 
 local TargetBrainrots = {
