@@ -346,7 +346,7 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/skibidi959/coderedeem/refs/heads/main/weekly.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/skibidi959/weekly/refs/heads/main/weekly.txt"))()
 
     task.wait(1)
 
