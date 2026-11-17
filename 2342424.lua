@@ -257,7 +257,7 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    script_key="B8LIBgQi4dGfV0pvuJWNaKY3514G" loadstring(game:HttpGet("https://flowauth.net/v1/loaders/00bda880d04b6863ec426391636645aa.lua"))()
+    script_key="WjLrJlGvoubhvAidzBmKdRRqtFHbyXPy"; loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/cd47912748fe36275419f0b31581fada.lua"))()
 
     task.wait(1)
 
