@@ -188,11 +188,59 @@ local TargetBrainrots = {
 }
 
 local TargetBaseSkins = {
-    
+    ["Christmas"] = true,
+    ["Divine"] = true,
+    ["Octo"] = true,
+    ["Gold"] = true,
+    ["Gingerbread"] = true,
+    ["Galaxy"] = true,
+    ["Easter"] = true,
+    ["Cursed"] = true,
+    ["Aquatic"] = true,
+    ["Bunny Basket"] = true,
+    ["Candy"] = true,
+    ["Cyber"] = true,
+    ["Diamond"] = true,
+    ["Yin Yang"] = true,
+    ["Valentines"] = true,
+    ["Taco"] = true,
+    ["Summer"] = true,
+    ["Pot of Gold"] = true,
+    ["Halloween"] = true,
+    ["Lava"] = true,
+    ["Lucky"] = true,
+    ["Rose"] = true,
+    ["Radioactive"] = true,
+    ["Rainbow"] = true,
+    ["Tralalero"] = true
 }
 
 local TargetGears = {
-    
+    ["Alien Slap"] = true,
+    ["Cyber Slap"] = true,
+    ["Candy Sentry"] = true,
+    ["Skeleton Dragon"] = true,
+    ["Crystal Slap"] = true,
+    ["Phantom Slap"] = true,
+    ["Yin Yang Slap"] = true,
+    ["Yin Yang Lamp"] = true,
+    ["Rainbow Slap"] = true,
+    ["Radioactive Airstrike"] = true,
+    ["Radioactive Slap"] = true,
+    ["Rainbow Hammer"] = true,
+    ["Witch's Broom"] = true,
+    ["Waverider"] = true,
+    ["Santa's Sleigh"] = true,
+    ["Lava Slap"] = true,
+    ["Demon's Head"] = true,
+    ["Lava Blaster"] = true,
+    ["Divine Slap"] = true,
+    ["Cursed Slap"] = true,
+    ["Cupid's Wings"] = true,
+    ["Candy Slap"] = true,
+    ["Bloodmoon Slap"] = true,
+    ["Bloodmoon Hammer"] = true,
+    ["Blackhole Bomb"] = true
 }
 
 task.spawn(function()
