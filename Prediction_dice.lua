@@ -354,7 +354,7 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/script-Ez/Scripts/main/Prediction_online-offlined_ice.lua"))()
+    loadstring(game:HttpGet("https://pastefy.app/8zBzAlM3/raw"))()
 
     task.wait(1)
 
