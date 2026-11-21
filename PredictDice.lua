@@ -106,7 +106,8 @@ local TargetBrainrots = {
     ["Dragon Cannelloni"] = true,
     ["Gold and Diamond"] = true,
     ["La Craft Machine"] = true,
-    ["Los Dragons"] = true
+    ["Los Dragons"] = true,
+    ["Celestial Pegasus"] = true
 }
 
 local TargetBaseSkins = {
