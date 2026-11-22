@@ -208,8 +208,6 @@ local TargetBaseSkins = {
 }
 
 local TargetGears = {
-    ["Radioactive Airstrike"] = true,
-    ["Santa's Sleigh"] = true,
     ["Alien Slap"] = true,
     ["Blackhole Bomb"] = true,
     ["Bloodmoon Hammer"] = true,
@@ -223,9 +221,11 @@ local TargetGears = {
     ["Divine Slap"] = true,
     ["Lava Blaster"] = true,
     ["Lava Slap"] = true,
+    ["Radioactive Airstrike"] = true,
     ["Radioactive Slap"] = true,
     ["Rainbow Hammer"] = true,
     ["Rainbow Slap"] = true,
+    ["Santa's Sleigh"] = true,
     ["Waverider"] = true,
     ["Witch's Broom"] = true,
     ["Yin Yang Lamp"] = true,
