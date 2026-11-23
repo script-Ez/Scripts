@@ -355,10 +355,6 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/RsqRaQC0/raw"))()
-end)
-
-task.spawn(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/davy880/RyuMax-Vs.vs/refs/heads/main/Ascend_Hub_Source.txt"))()
 
     task.wait(1)
