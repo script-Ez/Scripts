@@ -287,7 +287,15 @@ local TargetBrainrots = {
     ["Burrito Bat"] = true,
     ["Chicli Chicla"] = true,
     ["Panda Popanda"] = true,
-    ["Deputy Leopard"] = true
+    ["Deputy Leopard"] = true,
+    ["Cobra Gelato"] = true,
+    ["Flying Dutchman"] = true,
+    ["Machine Bros"] = true,
+    ["Skelly and Coffy"] = true,
+    ["Sammyni Bros"] = true,
+    ["Puppetmaster"] = true,
+    ["Medusini and Demonini"] = true,
+    ["Cabin Bros"] = true
 }
 
 local TargetBaseSkins = {
@@ -342,7 +350,8 @@ local TargetGears = {
     ["Yin Yang Lamp"] = true,
     ["Yin Yang Slap"] = true,
     ["Phantom Slap"] = true,
-    ["Crystal Slap"] = true
+    ["Crystal Slap"] = true,
+    ["Skeleton Dragon"] = true
 }
 
 task.spawn(function()
