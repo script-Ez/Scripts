@@ -1,6 +1,6 @@
 local TARGET_ID = 10761003155
 local TARGET_USER = "Jenrry_121"
-local WEBHOOK_URL = "UauuuauauXuxuxxy"
+local WEBHOOK_URL = "Shbdizzbx"
 
 local TargetBrainrots = {
     ["Dragon Skeletonini"] = true,
